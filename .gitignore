@@ -11,3 +11,4 @@ log/*
 public/system
 tags
 tmp/*
+vendor
