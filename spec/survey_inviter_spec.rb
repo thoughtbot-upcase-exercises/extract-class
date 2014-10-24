@@ -97,8 +97,8 @@ describe SurveyInviter, '#deliver' do
 
   def stub_invitation
     double('invitation').tap do |invitation|
-      Invitation.stub(:create).and_return(invitation)
-      Mailer.stub(:invitation_notification)
+      allow(Invitation).to receive(:create).and_return(invitation)
+      allow(Mailer).to receive(:invitation_notification)
     end
   end
 
