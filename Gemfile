@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'activesupport'
-gem 'factory_girl'
-gem 'rspec'
+gem "activesupport"
+gem "factory_girl"
+gem "rspec"
