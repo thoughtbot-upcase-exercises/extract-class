@@ -1,4 +1,5 @@
 require 'factory_girl'
+require 'active_support'
 require 'active_support/core_ext'
 
 FactoryGirl.find_definitions
